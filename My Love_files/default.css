@@ -1,0 +1,42 @@
+body {
+	background: rgb(255, 255, 238); margin: 0px; padding: 0px; overflow: auto; font-size: 12px;
+}
+#mainDiv {
+	width: 100%; height: 100%;
+}
+#loveHeart {
+	width: 670px; height: 625px; float: left;
+}
+#garden {
+	width: 100%; height: 100%;
+}
+#elapseClock {
+	text-align: right; font-size: 18px; margin-top: 10px; margin-bottom: 10px;
+}
+#words {
+	width: 500px; color: rgb(102, 102, 102); font-family: "word","wordeot"; font-size: 24px;
+}
+#messages {
+	font-family: "word","wordeot"; font-size: 28px; display: none;
+}
+#elapseClock .digit {
+	font-family: "outputdigit","digit"; font-size: 36px;
+}
+#loveu {
+	padding: 5px; text-align: right; font-family: "word","wordeot"; font-size: 28px; margin-top: 60px; margin-right: 120px; display: none;
+}
+#code {
+	width: 320px; height: 400px; color: rgb(51, 51, 51); line-height: 162%; font-family: "output","penstyle"; font-size: 26px; float: left;
+}
+#code .sign {
+	font-family: "word","wordeot"; font-size: 24px;
+}
+#copyright {
+	width: 100%; text-align: center; color: rgb(102, 102, 102); margin-top: 10px;
+}
+#errorMsg {
+	left: 0px; top: 100px; width: 100%; text-align: center; font-size: 24px; position: absolute;
+}
+#copyright a {
+	color: rgb(102, 102, 102);
+}
